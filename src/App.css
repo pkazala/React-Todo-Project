@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #a2afc9;
+}
+
+.App-header {
+  background-color: #a2afc9;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 9.9%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .5em;
+  width: 80%;
+}
+label {
+  font-size: 2em;
+  color: white;
+  margin-bottom: .5em;
+}
+.add {
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  border-radius: 4px;
+  margin-top: .5em;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+  font-size:12px;
+  box-shadow: 0 0 4px #999;
+  background-position: center;
+  transition: background 0.8s;
+  }
+  .add:hover {
+  background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  color: white;
+  }
+  .add:active{
+  background-color:#292d3e;
+  background-size: 100%;
+  transition: background 0s;
+  }
+input {
+  width: 16vh;
+}
+.todos {
+  color: white;
+}
+.delete {
+  color: #1D9AF2;
+  background-color: #ffffff;
+  border: 1px solid #1D9AF2;
+  border-radius: 4px;
+  padding: 5px 5px 5px 5px;
+  cursor: pointer;
+  width: 90px;
+  font-size:12px;
+  box-shadow: 0 0 4px #999;
+  background-position: center;
+  transition: background 0.8s;
+  }
+  .delete:hover {
+  background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  color: white;
+  }
+  .delete:active{
+  background-color:#292d3e;
+  background-size: 100%;
+  transition: background 0s;
+  }
